@@ -1,0 +1,50 @@
+.borderRed {
+	border: 1px red solid;
+}
+
+.borderGreen {
+	border: 1px green solid;
+}
+
+.loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.leftContent {
+	border: 0 red solid;
+	transition: width 5s;
+}
+
+.sideNavbar {
+	transition: width 0.1s linear;
+}
+
+.sideNavbar.open {
+	width: 280px;
+}
+
+.sideNavbar.close {
+	width: 4.5rem;
+}
+
+.content {
+	border: 0 red solid;
+	max-height: 900px;
+	overflow: auto;
+}
+
+.sideNavbarOffcanvasOpenBtn {
+	border: 0 red solid;
+	/* width: 10px;
+	height: 10px; */
+}
+
+.sideNavbarDropdown > a,
+.sideNavbarDropdown > a:hover,
+.sideNavbarDropdown > a:active,
+.sideNavbarDropdown > a:focus {
+	color: white;
+	font-weight: bold;
+}
